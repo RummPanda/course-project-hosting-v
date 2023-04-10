@@ -1,7 +1,63 @@
 * {
-    margin: 0;
+	margin: 0;
 }
 
 body {
-    background-color: #1c1c1c;
+	background-color: #1c1c1c;
 }
+
+/* Set up the card grid */
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+	gap: 20px;
+	margin: 20px;
+}
+  
+  /* Set up the card styles */
+  .card {
+	width: 420px;
+	height: 215px;
+	background-color: #212121;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	border-radius: 8px;
+}
+  
+  .card-content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+  
+  /* Set up the canvas for the 3D models */
+  canvas {
+	width: 100%;
+	height: 100%;
+}
+
+/* Convert pixels to rems */
+html {
+	font-size: 62.5%;
+}
+
+.card {
+	width: 42rem;
+	height: 21.5rem;
+	border-radius: 0.8rem;
+}
+
+/* Set up the dark theme */
+body {
+	background-color: #121212;
+	color: #fff;
+}
+
+.card {
+	background-color: #212121;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Add any additional styles as needed */
