@@ -1,5 +1,5 @@
 // Get a reference to the scene container
-const sceneContainer = document.getElementById('scene-container');
+const sceneContainer = document.getElementById('model-1');
 
 // Create the renderer
 const renderer = new THREE.WebGLRenderer();
